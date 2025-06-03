@@ -7,7 +7,6 @@ RUN apk add --no-cache \
     less \
     grep \
     sed \
-	awk \
-	jq
+    jq
 
 CMD ["bash"]
