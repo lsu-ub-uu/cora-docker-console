@@ -8,6 +8,7 @@ RUN apk add --no-cache \
     less \
     grep \
     sed \
-    jq
+    jq \
+	kubectl
 
 CMD ["bash"]
